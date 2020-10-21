@@ -1,4 +1,3 @@
 Rails.application.routes.draw do
-  root to: 'messages#index'
-  resources :messages #, except: [:index]とすると、indexのみルーティングから除外される。
+  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
